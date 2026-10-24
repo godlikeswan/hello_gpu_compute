@@ -1,0 +1,9 @@
+[package]
+name = "hello_gpu_compute"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wgpu = "22.0"
+pollster = "0.3"
+bytemuck = { version = "1.16", features = ["derive"] }
